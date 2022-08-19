@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho" id="voltar"><a href="Portfolio\index.html"><img src="seta-esquerda.png" class="imagem"></a></div>    
+    </header>
+        <div class="container">
+            <form action="">
+                <fieldset>
+                    <h1>Cadastre-se</h1>
+                    <div class="inputbox">
+                        <label for="">Nome</label><br>
+                        <input type="text" name="nome" id="nome" class="inputuser" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="">Sobrenome</label><br>
+                        <input type="tel" name="sobrenome" id="sobrenome" class="inputuser" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="">E-mail</label><br>
+                        <input type="email" name="email" id="email" class="inputuser" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="">Telefone</label><br>
+                        <input type="tel" name="telefone" id="telefone" class="inputuser" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="">Senha</label><br>
+                        <input type="password" name="senha" id="senha" class="inputuser" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="">Confirmar senha</label><br>
+                        <input type="password" name="confirmarsenha" id="confirmarsenha" class="inputuser" required>
+                    </div>
+                    <div class="input-box-genero">
+                        <label for="">Sexo</label><br>
+                        <input type="radio" name="genero" id="masculino">
+                        <label for="">Masculino</label><br>
+                        <input type="radio" name="genero" id="feminino">
+                        <label for="">Feminino</label><br>
+                        <input type="radio" name="genero" id="outros">
+                        <label for="">Outros</label><br>
+                        <input type="radio" name="genero" id="semdeclarar" checked>
+                        <label for="">Prefiro não declarar</label><br>
+                    </div><br>
+                    <div class="submit">
+                    <input type="submit" value="Enviar" name="Enviar" id="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>  
+</body>
+</html>
